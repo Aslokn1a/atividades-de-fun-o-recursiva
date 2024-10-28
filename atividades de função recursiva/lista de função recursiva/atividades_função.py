@@ -55,7 +55,7 @@ def atividade8():
 
 def atividade10():
     def mult(x,y):
-        if y==0:
+        if y==1:
             return x
         else:
             return x+mult(x,y-1)
